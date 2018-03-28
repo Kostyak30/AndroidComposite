@@ -1,0 +1,10 @@
+rootProject.name = 'mobile'
+
+include ":mylibrary"
+project(":mylibrary").projectDir = new File(settingsDir, '../mylibrary')
+
+include ":mylibrary2"
+project(":mylibrary2").projectDir = new File(settingsDir, '../mylibrary2')
+
+
+
